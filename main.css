@@ -1,0 +1,34 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.Partners{
+  font-family:Roboto;
+  text-align: center;
+  font-style:regular;
+}
+.Partners h3{
+  font-size:32px;
+}
+.partners-description {
+  font-size: 30px;
+}
+
+#HNG{
+  width:250px;
+  display: inline;
+  margin-top: 20px;
+}
+#Flutterwave{
+  width:250px;
+  display: inline;
+  margin-top: 20px;
+  margin-left: 45px;
+
+}
+#StartNG{
+  width:120px;
+  display: inline;
+  margin-top: 20px;
+  margin-left: 45px;
+}
