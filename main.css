@@ -3,6 +3,13 @@
 }
 
 /* Navbar */
+.nav-bar {
+  position: fixed;
+  top: 0;
+  width: 99%;
+  margin-left: 0;
+  }
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -55,7 +62,7 @@ li.dropdown {
 .Partners{
   font-family:Roboto;
   text-align: center;
-  font-style:regular;
+  padding-bottom: 70px;
 }
 .Partners h3{
   font-size:32px;
@@ -83,11 +90,71 @@ li.dropdown {
   margin-left: 45px;
 }
 
-/* Footer */
-footer{
-    background-color: whitesmoke;
+
+/* The team */
+.team-container {
+  background-color: rgb(246, 246, 246);
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
+.team-container h1 {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.team-lead img {
+  border-radius: 50%;
+  height: 105px;
+  margin: 10px;
+}
+
+.the-team {
+  background-color: rgb(246, 246, 246);
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: center;
+
+}
+.team-lead {
+  margin: 15px;
+  border: 1px solid white;
+  background-color: white;
+  height: 270px;
+  width: 250px;
+}
+.team-info {
+  margin-left: 10px;
+
+}
+
+.names {
+  font-family: sans-serif;
+  font-size: 18px;
+  margin: 15px;
+  font-style:
+}
+.team-division {
+  font-style: italic;
+}
+#more-team {
+  font-style: italic;
+  border: 1px solid white;
+  border-radius: 8px;
+  background-color: rgb(246, 246, 246);
+  text-align: center;
+  width: 40px;
+  color: rgb(73, 72, 72);
+}
+.members {
+  margin-left: 200px;
+  margin-bottom: 2px;
+  margin-top: 43px;
+}
+
+
+/* Footer */
 .info {
   float: left;
   margin-right: 100px;
