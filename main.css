@@ -82,3 +82,29 @@ li.dropdown {
   margin-top: 20px;
   margin-left: 45px;
 }
+
+footer{
+    background-color: whitesmoke;
+}
+
+.info {
+  float: left;
+  margin-right: 100px;
+  margin-left: 50px;
+  padding: 10px;
+  text-align: center;
+}
+
+.address {
+  height: 300px;
+  padding-top: 100px;
+}
+
+.address-top {
+  border-bottom: 1px solid #000000;
+  height: 80px;
+}
+
+.address-bottom {
+  padding-top: 30px;
+}
