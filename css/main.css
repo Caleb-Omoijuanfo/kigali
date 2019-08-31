@@ -5,6 +5,7 @@
 /* Navbar */
 .nav-bar {
   position: fixed;
+  z-index: 1;
   top: 0;
   width: 99%;
   margin-left: 0;
@@ -51,7 +52,7 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-.active {
+.working {
     background-color: red;
 }
 .right {
