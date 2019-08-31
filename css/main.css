@@ -2,12 +2,17 @@
   font-family: 'Roboto', sans-serif;
 }
 
+.application {
+  border: 1px solid black;
+  margin: 0 auto;
+  width: 100%;
+}
+
 /* Navbar */
 .nav-bar {
-  position: fixed;
   z-index: 1;
   top: 0;
-  width: 99%;
+  width: 100%;
   margin-left: 0;
   }
 
