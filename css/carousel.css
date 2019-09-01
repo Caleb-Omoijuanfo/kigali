@@ -6,6 +6,13 @@ EDIT ON
   margin: auto;
 }
 
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+
 /* Apply 'border-box' to 'box-sizing' so border and padding is included in the width and height. */
 .carousel-wrapper * {
   box-sizing: border-box;

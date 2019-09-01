@@ -2,12 +2,16 @@
   font-family: 'Roboto', sans-serif;
 }
 
+.application {
+  margin: 0 auto;
+  width: 100%;
+}
+
 /* Navbar */
 .nav-bar {
-  position: fixed;
   z-index: 1;
   top: 0;
-  width: 99%;
+  width: 100%;
   margin-left: 0;
   }
 
@@ -72,6 +76,10 @@ li.dropdown {
   font-size: 2vw;
 }
 
+.partners-description span {
+  color: #000000;
+}
+
 #HNG{
   width:250px;
   display: inline;
@@ -117,8 +125,8 @@ li.dropdown {
   flex-direction: row;
   margin: auto;
   justify-content: center;
-
 }
+
 .team-lead {
   margin: 15px;
   border: 1px solid rgb(246, 246, 246);
@@ -256,8 +264,55 @@ section {
     }
 }
 
-
 .column img {
     width: 60px;
     height: 60px;
+}
+
+
+/* Payments page */
+
+.smallText{
+    color: purple;
+    margin-bottom: -10px;
+}
+hr{
+    color: purple;
+}
+.subheading1{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.header{
+    text-align: center;
+}
+span{
+    color: red;
+}
+.leftInput{
+    float: left;
+    max-width: 200;
+}
+.rightInput{
+    float: right;
+}
+.textareaA{
+    width: 825px;
+    height: 50px;
+    margin-bottom: -20px;
+}
+input{
+    width: 400px;
+}
+#country{
+    width: 400px;
+    height: 30px;
+    float: left;
+}
+#postalCode{
+    margin-bottom: -5px;
+}
+#phone{
+    margin-top: -5px;
 }
