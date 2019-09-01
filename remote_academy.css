@@ -1,0 +1,50 @@
+body{
+    font-family: roboto;
+}
+h2{
+    background:linear-gradient(90deg, rgb(139,69,19), grey);
+    margin: 0px;
+    padding: 10px;
+}
+.link{
+    margin: 10px;
+    padding: 10px;
+}
+button{
+    width: 120px;
+    height: 30px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 15px;
+    box-shadow: 9px black;
+    background: linear-gradient(45deg, hsl(0, 0%,41%), hsl(0, 25%, 65%));
+}
+button:hover{
+    background-color: RED;
+}
+button:active{
+    background-color:black;
+    color: white;
+}
+h1{
+    background:linear-gradient(45deg,  hsl(1, 0%, 0%),hsl(0, 0%, 41%), hsl(1, 0%, 0%));
+    margin: 0px;
+    padding: 10px;
+    text-align: center
+}
+span{
+    font-size: 15px;
+}
+footer{
+    margin: 10px;
+    text-align: center;
+}
+.content{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+h3{
+    background: linear-gradient(90deg, hsl(0,0%,50%), hsl(0,0%,100%));
+    padding: 5px;
+    border-radius: 15px;
+}
