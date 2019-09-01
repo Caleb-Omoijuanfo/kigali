@@ -15,27 +15,30 @@
   margin-left: 0;
   }
 
-ul {
+.nav-bar ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #333;
 }
-li {
+.nav-bar ul li {
   float: right;
 }
-li a, .dropbtn {
+
+.nav-bar ul li a, .dropbtn {
   display: inline-block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
-li a:hover, .dropdown:hover .dropbtn {
+
+.nav-bar ul li a:hover, .dropdown:hover .dropbtn {
   background-color: #4CAF50;
 }
-li.dropdown {
+
+.nav-bar ul li.dropdown {
   display: inline-block;
 }
 .dropdown-content {
