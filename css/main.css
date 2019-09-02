@@ -277,7 +277,33 @@ section {
 
 
 /* Payments page */
+
+.name-passport-container {
+  display: flex;
+  flex-direction: row;
+}
+.passport-container {
+  width: 25%;
+}
+
+#output {
+  width: 150px;
+  height: 150px
+}
+
+.name-passport {
+  margin-right: 10px;
+  width: 70%;
+}
+.name {
+  width: 100%;
+}
 input[type=text] {
+  width: 100%;
+  height: 2vw;
+}
+
+input[type=email] {
   width: 100%;
   height: 2vw;
 }
@@ -288,7 +314,7 @@ input[type=text] {
 
 form {
   margin: 0 auto;
-  width: 50%;
+  width: 60%;
 }
 
 .header {
