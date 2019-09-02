@@ -12,14 +12,13 @@
 		<script src="https://kit.fontawesome.com/15d5694a8d.js"></script>
   </head>
 <body>
-  <div class="">
+  <div class="application">
     <div class="nav-bar">
-      <ul>
+      <ul class="nav-bar-ul">
         <li><a class="working" href="apply.html">Apply</a></li>
         <li><a href="#Log in">Log in</a></li>
         <li><a href="about.html">About</a></li>
-        <li><a href="#Team">Team</a></li>
-        <li><a href="#Alumni">Alumni</a></li>
+        <li><a href="team.html">Team</a></li>
         <li><a href="payment.html">Payments</a></li>
         <li><a href="remote_academy.html">courses</a></li>
         <li><a href="help_and_faq.html">FAQ</a></li>
@@ -36,29 +35,33 @@
       </ul>
     </div>
     <h1 class="header">Payment and course registration page</h1>
-    <form style="margin: 0 10% 0 10%; font-size: 20px">
+    <form>
         <p class="subheading1"></p>
         <fieldset>
           <legend>Contact Details</legend>
-          <p class="leftInput">First Name:<span>*</span><br>
-          <input type="text"><br></p>
+        <p class="leftInput">First Name:<span class="asterisk">*</span><br>
+          <input type="text"><br>
+        </p>
 
-            <p class="rightInput">Last Name:<span>*</span><br>
-            <input type="text"><br></p>
+        <p class="rightInput">Last Name:<span class="asterisk">*</span><br>
+          <input type="text"><br>
+        </p>
 
-            <p>Address:<span>*</span><br>
-            <input type="textarea" class="textareaA" rows="10" cols="200"><br></p>
+        <p>Address:<span class="asterisk">*</span><br>
+          <textarea name="name" rows="8" cols="80"></textarea>
+        </p>
 
-            <p class="leftInput" id="postalCode">Postal Code:<span>*</span><br>
-            <input type="text"><br></p>
+        <p class="leftInput" id="postalCode">Postal Code:<span class="asterisk">*</span><br>
+          <input type="text"><br>
+        </p>
 
-            <p class="rightInput" id="zip">Zip:<span>*</span><br>
-            <input type="text" id="zip" width="500"><br></p>
+        <p class="rightInput" id="zip">Zip:<span class="asterisk">*</span><br>
+          <input type="text" id="zip" width="500"><br></p>
 
-            <p class="leftInput">Country:<span>*</span><br>
-            <select id="country" name="country">
-                <option value="Afganistan">Afghanistan</option>
-                <option value="Albania">Albania</option>
+        <p class="leftInput">Country:<span class="asterisk">*</span><br>
+          <select id="country" name="country">
+            <option value="Afganistan">Afghanistan</option>
+            <option value="Albania">Albania</option>
                 <option value="Algeria">Algeria</option>
                 <option value="American Samoa">American Samoa</option>
                 <option value="Andorra">Andorra</option>
@@ -304,11 +307,11 @@
                 <option value="Zambia">Zambia</option>
                 <option value="Zimbabwe">Zimbabwe</option>
              </select></p>
-             <p class="rightInput" id="phone">Phone:<span>*</span><br>
+             <p class="rightInput" id="phone">Phone:<span class="asterisk">*</span><br>
                 <input type="text"><br></p>
+            <input type="submit">
         </fieldset>
 
-        <input type="submit">
     </form>
 
 

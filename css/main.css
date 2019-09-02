@@ -15,7 +15,7 @@
   margin-left: 0;
   }
 
-ul {
+.nav-bar-ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -23,21 +23,21 @@ ul {
   background-color: #333;
 }
 
-li {
+.nav-bar-ul li {
   float: right;
 }
 
-li a, .dropbtn {
+.nav-bar-ul li a, .dropbtn {
   display: inline-block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
-li a:hover, .dropdown:hover .dropbtn {
+.nav-bar-ul li a:hover, .dropdown:hover .dropbtn {
   background-color: #4CAF50;
 }
-li.dropdown {
+.nav-bar-ul li.dropdown {
   display: inline-block;
 }
 .dropdown-content {
@@ -62,7 +62,7 @@ li.dropdown {
     background-color: red;
 }
 .right {
-    float:left;
+    float:left !important;
 }
 
 /* Partners section */
@@ -168,6 +168,10 @@ li.dropdown {
 
 
 /* Footer */
+footer {
+  background-color: rgb(246, 246, 246);
+}
+
 .info {
   float: left;
   margin-right: 100px;
@@ -273,48 +277,39 @@ section {
 
 
 /* Payments page */
+input[type=text] {
+  width: 100%;
+  height: 2vw;
+}
 
-.smallText{
-    color: purple;
-    margin-bottom: -10px;
+.asterisk {
+  color: red;
 }
-hr{
-    color: purple;
+
+form {
+  margin: 0 auto;
+  width: 50%;
 }
-.subheading1{
-    text-align: center;
-    font-size: 20px;
-    font-weight: bolder;
+
+.header {
+  text-align: center;
 }
-.header{
-    text-align: center;
+
+input[type=submit]{
+  padding: 10px;
+  border-radius: 3px;
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  border: none;
 }
-span{
-    color: red;
+
+textarea {
+  width: 100%;
 }
-.leftInput{
-    float: left;
-    max-width: 200;
-}
-.rightInput{
-    float: right;
-}
-.textareaA{
-    width: 825px;
-    height: 50px;
-    margin-bottom: -20px;
-}
-input{
-    width: 400px;
-}
-#country{
-    width: 400px;
-    height: 30px;
-    float: left;
-}
-#postalCode{
-    margin-bottom: -5px;
-}
-#phone{
-    margin-top: -5px;
+
+input[type=submit]:hover {
+  background-color: #333
+  cursor: pointer;
 }
