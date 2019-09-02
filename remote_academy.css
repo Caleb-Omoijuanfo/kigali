@@ -1,16 +1,46 @@
 body{
     font-family: roboto;
 }
-h2{
+.accordion{
     background:linear-gradient(90deg, rgb(139,69,19), grey);
     margin: 0px;
-    padding: 10px;
+    padding-top: 10px;
+    width: 100%;
+    height: 50px;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.4s;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.active, .accordion:hover{
+    background-color: white; 
+}
+.accordion:after{
+    content:'\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+.active:after{
+    content: "\2212";
+}
+.content{
+    display: contents;
+    overflow: hidden;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 18px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
 }
 .link{
     margin: 10px;
     padding: 10px;
 }
-button{
+.apply{
     width: 120px;
     height: 30px;
     cursor: pointer;
@@ -19,17 +49,17 @@ button{
     box-shadow: 9px black;
     background: linear-gradient(45deg, hsl(0, 0%,41%), hsl(0, 25%, 65%));
 }
-button:hover{
+.apply:hover{
     background-color: RED;
 }
-button:active{
+.apply:active{
     background-color:black;
     color: white;
 }
 h1{
     background:linear-gradient(45deg,  hsl(1, 0%, 0%),hsl(0, 0%, 41%), hsl(1, 0%, 0%));
     margin: 0px;
-    padding: 10px;
+    padding: 20px;
     text-align: center
 }
 span{
@@ -38,13 +68,49 @@ span{
 footer{
     margin: 10px;
     text-align: center;
+} 
+#frontend{
+    width: 50%;
+    float: bottom;
 }
-.content{
-    margin-left: 30px;
-    margin-right: 30px;
+#fullstack{
+    width: 50%;
+    float: right;
+}
+#backend{
+    width: 50%;
+    float: left; 
+}
+.subtopic{
+    background: linear-gradient(90deg, hsl(0,0%,50%), hsl(0,0%,100%), hsl(0,0%,50%));
+    border-radius: 15px;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.4s;
+    height: 30px;
+    font-weight: bold;
+}
+.activate, .subtopic:hover{
+    background-color: white; 
+}
+.subtopic:after{
+    content:'\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+.activate:after{
+    content: "\2212";
+}
+.subcontent{
+    display: none;
+    overflow: hidden;
 }
 h3{
-    background: linear-gradient(90deg, hsl(0,0%,50%), hsl(0,0%,100%));
-    padding: 5px;
-    border-radius: 15px;
+    font-size: 1em;
+}
+h2{
+    width: 90%;
 }
