@@ -1,0 +1,31 @@
+footer{
+    background-color: whitesmoke;
+    padding: 50px;
+    font-family: sans-serif;
+    }
+
+ul li {
+
+    list-style-type: none;
+    display: inline;
+    font-weight: bolder;
+    padding: 14px;
+    margin: 0 50px;
+}
+
+
+img{
+    border-radius: 20px;
+    padding: 5px;
+    height: 200px;
+    width: 320px;
+    margin: 0 5px;
+}
+
+p{
+    list-style-type: none;
+    display: inline;
+    font-weight: bolder;
+    margin: 0 50px;
+}
+
