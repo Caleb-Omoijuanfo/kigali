@@ -93,7 +93,6 @@ nav ul a:hover {
     }
 
 
-
 .container {
     position: relative;
     left: 0;
@@ -136,21 +135,21 @@ h1 {
     text-shadow: 1px 1px 3px #666666;
 }
 .button a {
-    margin-left: 50px;
-      border-radius: 14px;
-      text-shadow: 1px 1px 3px #666666;
-      font-family: 'Open Sans', sans-serif;
-      color: #ffffff;
-      font-size: 36px;
-     background: rgb(248, 9, 9);
-      padding: 10px 20px 10px 20px;
-      text-decoration: none;
-      cursor: pointer;
-      opacity: .9;
+        margin-left: 50px;
+        border-radius: 14px;
+        text-shadow: 1px 1px 3px #666666;
+        font-family: 'Open Sans', sans-serif;
+        color: #ffffff;
+        font-size: 36px;
+        background: rgb(248, 9, 9);
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+        cursor: pointer;
+        opacity: .9;
 }
 
 .button:hover a {
-      background: rgba(216, 24, 24, 0.2);
-      text-decoration: none;
-      opacity: .6;
+    background: rgb(230, 82, 82);
+    text-decoration: none;
+    
 }
