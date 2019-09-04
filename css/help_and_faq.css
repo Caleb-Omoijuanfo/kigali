@@ -6,6 +6,9 @@ html, body {
     overflow-x: hidden;
     margin: 0;
 }
+.faq-container {
+  padding-left: 20px;
+}
 
 h1 {
     text-align: center;
