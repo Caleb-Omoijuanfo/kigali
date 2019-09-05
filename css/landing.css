@@ -30,3 +30,10 @@
 				#homelink a {color:white;}
 				.HomeWord {font-size:35px;}
 				body a {text-decoration: none;}
+
+				@media screen and (max-width: 600px) {
+				 .landing {
+					 display: none;
+				 }
+
+				}
