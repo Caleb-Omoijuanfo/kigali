@@ -39,28 +39,28 @@
   <fieldset>
     <legend>Contact Details</legend>
     <p class="name">First Name:<span class="asterisk">*</span><br>
-      <input type="text" name="firstName"><br>
+      <input type="text" name="firstName" required><br>
     </p>
 
     <p class="name">Last Name:<span class="asterisk">*</span><br>
-      <input type="text"><br>
+      <input type="text" required><br>
     </p>
 
     <div class="the-rest">
       <p class="rightInput" id="phone">Phone:<span class="asterisk">*</span><br>
-        <input type="text" name="phone"><br>
+        <input type="text" name="phone" required><br>
       </p>
 
       <p class="rightInput" id="phone">Email:<span class="asterisk">*</span><br>
-        <input type="text" name="email"><br>
+        <input type="email" name="email" required><br>
       </p>
 
       <p>Address:<span class="asterisk">*</span><br>
-        <textarea name="name" rows="8" cols="80"></textarea>
+        <textarea name="name" rows="8" cols="80" required></textarea>
       </p>
 
       <p class="leftInput">Country:<span class="asterisk">*</span><br>
-        <select id="country" name="country">
+        <select id="country" name="country" required>
           <option value="Afganistan">Afghanistan</option>
           <option value="Albania">Albania</option>
           <option value="Algeria">Algeria</option>
