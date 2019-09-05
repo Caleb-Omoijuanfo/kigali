@@ -56,8 +56,7 @@ body{
     background-color:black;
     color: white;
 }
-h1{
-    background:linear-gradient(45deg,  hsl(1, 0%, 0%),hsl(0, 0%, 41%), hsl(1, 0%, 0%));
+.header-h1 {
     margin: 0px;
     padding: 20px;
     text-align: center
@@ -113,4 +112,20 @@ h3{
 }
 h2{
     width: 90%;
+}
+
+@media screen and (max-width: 600px) {
+  #backend {
+    width: 100%;
+  }
+
+  #fullstack {
+    width: 100%;
+  }
+
+  #frontend {
+    width: 100%;
+  }
+
+
 }

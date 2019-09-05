@@ -36,15 +36,16 @@
 	</head>
 	<body>
 		<div class="application">
-			<div class="nav-bar">
-				<ul class="nav-bar-ul">
-					<li><a href="about.html">About</a></li>
-					<li><a href="team.html">Team</a></li>
-					<li><a href="payment.html">Payments</a></li>
-					<li><a href="remote_academy.html">courses</a></li>
-					<li><a href="help_and_faq.html">FAQ</a></li>
-					<li class="right"><a href="index.html">Remote Academy</a></li>
-				</ul>
+			<div class="topnav" id="myTopnav">
+				<a href="index.html">Remote Academy</a>
+				<a href="help_and_faq.html">FAQ</a>
+				<a href="team.html">Team</a>
+				<a href="payment.html">Payments</a>
+				<a href="remote_academy.html">Courses</a>
+				<a href="about.html">About</a>
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+					<i class="fa fa-bars"></i>
+				</a>
 			</div>
 
 			<section class="landing">
@@ -59,7 +60,7 @@
 				</div>
 			</section>
 
-			<section>
+			<section class="opportunity">
 	      <div class="container">
 	        <p class="section-1">Opportunity is waiting for you</p>
 
@@ -92,9 +93,11 @@
 					fully committed in developing world-class software engineers in Nigeria.</span>
 				</div>
 
-				<img id="HNG" src="https://res.cloudinary.com/michelletakuro/image/upload/v1567094561/brand-logo.png" alt="HNG Internship Logo" />
-				<img id="Flutterwave" src="https://res.cloudinary.com/michelletakuro/image/upload/v1567102122/FLW-logo.png" alt="Flutterwave Logo"/>
-				<img id="StartNG" src="https://res.cloudinary.com/michelletakuro/image/upload/v1567094560/Start_Default.png" alt="StartNG Logo"/>
+				<div class="partner-images">
+					<img id="HNG" src="https://res.cloudinary.com/michelletakuro/image/upload/v1567094561/brand-logo.png" alt="HNG Internship Logo" />
+					<img id="Flutterwave" src="https://res.cloudinary.com/michelletakuro/image/upload/v1567102122/FLW-logo.png" alt="Flutterwave Logo"/>
+					<img id="StartNG" src="https://res.cloudinary.com/michelletakuro/image/upload/v1567094560/Start_Default.png" alt="StartNG Logo"/>
+				</div>
 			</div>
 
 			<footer>
@@ -129,6 +132,15 @@
 			</footer>
 
 		</div>
-	<script type="text/javascript" src="./js/carousel.js"></script>
+		<script type="text/javascript">
+		function myFunction() {
+			var x = document.getElementById("myTopnav");
+			if (x.className === "topnav") {
+				x.className += " responsive";
+			} else {
+				x.className = "topnav";
+			}
+		}
+		</script>
 	</body>
 </html>
