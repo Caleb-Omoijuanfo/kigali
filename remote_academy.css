@@ -5,36 +5,23 @@ body{
     background:linear-gradient(90deg, rgb(139,69,19), grey);
     margin: 0px;
     padding-top: 10px;
+    padding-left: 10px;
     width: 100%;
     height: 50px;
     text-align: left;
-    cursor: pointer;
-    transition: 0.4s;
     font-size: 1.5em;
     font-weight: bold;
+    border-radius: 0px 0px 10px  10px ;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.active, .accordion:hover{
-    background-color: white; 
-}
-.accordion:after{
-    content:'\002B';
-    color: white;
-    font-weight: bold;
-    float: right;
-    margin-left: 5px;
-}
-.active:after{
-    content: "\2212";
-}
-.content{
-    display: contents;
-    overflow: hidden;
+.contents{
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
     padding: 18px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 10px;
+    border: 10px, thick, grey;
 }
 .link{
     margin: 10px;
@@ -70,16 +57,16 @@ footer{
     text-align: center;
 } 
 #frontend{
-    width: 50%;
-    float: bottom;
+    width: 70%;
+    margin: auto;
 }
 #fullstack{
-    width: 50%;
-    float: right;
+    width: 70%;
+    margin: auto;
 }
 #backend{
-    width: 50%;
-    float: left; 
+    width: 70%;
+    margin: auto; 
 }
 .subtopic{
     background: linear-gradient(90deg, hsl(0,0%,50%), hsl(0,0%,100%), hsl(0,0%,50%));
