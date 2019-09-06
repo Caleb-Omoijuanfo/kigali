@@ -3,6 +3,25 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots"content="archive,follow,imageindex,index,odp,snippet,translate"/>
+  <meta name="title" content="Payment |Remote academy">
+  <meta name="description" content="Online tech school that provides a range of IT related courses at an affordable price">
+  <meta name="keywords" content="Online, tech school, IT development, affordable, certification available, Become a World Class <br/>
+  Software Developer">
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="language" content="English">
+  <meta name="target"content="all"/>
+  <meta name="audience"content="all"/>
+  <meta name="coverage" content="Worldwide"/>
+  <meta name="distribution" content="Global">
+  <meta name="og:type" content="website"/>
+  <meta name="rating" content="safe for kids"/>
+  <meta name="topic" content="Become a World Class <br/>
+  Software Developer">
+  <meta name="summary" content="Government Approved certificate">
+  <meta name="Classification" content="Business">
+  <meta name="author" content="StartNG Internship project">
   <title>Payments</title>
   <!-- External CSS -->
   <link rel="stylesheet" href="./css/main.css">
@@ -13,26 +32,27 @@
 </head>
 <body>
   <div class="application">
-    <div class="nav-bar">
-      <ul class="nav-bar-ul">
-        <li><a href="about.html">About</a></li>
-        <li><a href="team.html">Team</a></li>
-        <li><a href="payment.html">Payments</a></li>
-        <li><a href="remote_academy.html">courses</a></li>
-        <li><a href="help_and_faq.html">FAQ</a></li>
-        <li class="right"><a href="index.html">Remote Academy</a></li>
-        <!-- <li class="dropdown">
-        <a href="javascript:void(0)" class="dropbtn">Courses</a>
-        <div class="dropdown-content">
-        <a href="#">UI/UX Design</a>
-        <a href="#">Data Science/Machine Learning</a>
-        <a href="#">Mobile Development</a>
-        <a href="#">Web Development</a>
-      </div>
-    </li> -->
-  </ul>
-</div>
-
+    <div class="topnav" id="myTopnav">
+      <a href="index.html">Remote Academy</a>
+      <a href="help_and_faq.html">FAQ</a>
+      <a href="team.html">Team</a>
+      <a href="payment.html">Payments</a>
+      <a href="remote_academy.html">Courses</a>
+      <a href="about.html">About</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  <div class="">
+    <h1 class="header">Payment and course registration page</h1>
+    <form>
+      <p class="subheading1"></p>
+      <fieldset>
+        <legend>Contact Details</legend>
+        <p class="name">First Name:<span class="asterisk">*</span><br>
+          <input type="text" name="firstName"><br>
+        </p>
+        
 <h1 class="header">Payment and course registration page</h1>
 <form>
   <p class="subheading1"></p>
@@ -309,20 +329,27 @@
           <option value="Zimbabwe">Zimbabwe</option>
         </select></p>
 
-        <input type="submit" value="Pay Now">
 
-      </div>
-    </fieldset>
 
-  </form>
-</div>
+            <input type="submit" value="Pay Now">
+
+          </div>
+        </fieldset>
+      </form>
+  </div>
+  </div>
+<script type="text/javascript">
+    function myFunction() {
+			var x = document.getElementById("myTopnav");
+			if (x.className === "topnav") {
+				x.className += " responsive";
+			} else {
+				x.className = "topnav";
+			}
+		}
+</script>
 <script src="../js/payment.js"></script>
 <script src="https://api.ravepay.co/flwv3-pug/getpaidx/api/flwpbf-inline.js"></script>
-<script type="text/javascript">
-var loadFile = function(event) {
-  var image = document.getElementById('output');
-  image.src = URL.createObjectURL(event.target.files[0]);
-};
-</script>
+
 </body>
 </html>

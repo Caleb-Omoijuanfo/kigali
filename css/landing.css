@@ -1,6 +1,5 @@
 
 				.landing {
-        /* background-image: url("https://res.cloudinary.com/omojolade/image/upload/c_scale,e_auto_brightness,h_768,w_1366/v1567222831/landingpagephoto_ik5llu.jpg"); */
         background-image: url("https://res.cloudinary.com/dqpoj0kcn/image/upload/c_fill,h_578,w_1366/v1567388323/apple-black-and-white-black-and-white-169573.jpg");
         width:100%;
         object-fit:fill;
@@ -8,8 +7,8 @@
 				z-index: -6;
 				height: 578px;
 				background-repeat: no-repeat;
-
 			}
+
 			.HomeText {position: relative;
 				color:white;
 				top:250px;
@@ -31,3 +30,10 @@
 				#homelink a {color:white;}
 				.HomeWord {font-size:35px;}
 				body a {text-decoration: none;}
+
+				@media screen and (max-width: 600px) {
+				 .landing {
+					 display: none;
+				 }
+
+				}

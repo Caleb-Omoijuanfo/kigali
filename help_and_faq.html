@@ -4,38 +4,50 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="robots"content="archive,follow,imageindex,index,odp,snippet,translate"/>
+		<meta name="title" content=" Help and Faq |Remote academy">
+		<meta name="description" content="Online tech school that provides a range of IT related courses at an affordable price">
+		<meta name="keywords" content="Online, tech school, IT development, affordable, certification available, Become a World Class <br/>
+		Software Developer">
+		<meta name="robots" content="index, follow">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="language" content="English">
+		<meta name="target"content="all"/>
+		<meta name="audience"content="all"/>
+		<meta name="coverage" content="Worldwide"/>
+		<meta name="distribution" content="Global">
+		<meta name="og:type" content="website"/>
+		<meta name="rating" content="safe for kids"/>
+		<meta name="topic" content="Become a World Class <br/>
+		Software Developer">
+		<meta name="summary" content="Government Approved certificate">
+		<meta name="Classification" content="Business">
+		<meta name="author" content="StartNG Internship project">
     <title>Help and FAQ</title>
-    <link rel="stylesheet" href="./css/help_and_faq.css">
+
+    <!-- External css -->
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/help_and_faq.css">
     <!-- Google Fonts -->
 		<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 		<!-- Font Awesome Icons -->
     <script src="https://kit.fontawesome.com/15d5694a8d.js"></script>
-    <script src="./js/faq_details.js"></script>
   </head>
   <body onload="init()">
     <div class="application">
-      <div class="nav-bar">
-        <ul class="nav-bar-ul">
-          <li><a href="about.html">About</a></li>
-          <li><a href="#Team">Team</a></li>
-          <li><a href="payment.html">Payments</a></li>
-          <li><a href="remote_academy.html">courses</a></li>
-          <li><a href="help_and_faq.html">FAQ</a></li>
-          <li class="right"><a href="index.html">Remote Academy</a></li>
-          <!-- <li class="dropdown">
-            <a href="javascript:void(0)" class="dropbtn">Courses</a>
-            <div class="dropdown-content">
-              <a href="#">UI/UX Design</a>
-              <a href="#">Data Science/Machine Learning</a>
-              <a href="#">Mobile Development</a>
-              <a href="#">Web Development</a>
-            </div>
-          </li> -->
-        </ul>
-      </div>
+      <div class="topnav" id="myTopnav">
+				<a href="index.html">Remote Academy</a>
+				<a href="help_and_faq.html">FAQ</a>
+				<a href="team.html">Team</a>
+				<a href="payment.html">Payments</a>
+				<a href="remote_academy.html">Courses</a>
+				<a href="about.html">About</a>
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+					<i class="fa fa-bars"></i>
+				</a>
+			</div>
 
-      <div class="">
+      <div class="faq-container">
         <h1>HELP AND FAQ </h1>
 
         <details class="detail">
@@ -120,5 +132,16 @@
       </div>
 
     </div>
+    <script type="text/javascript">
+		function myFunction() {
+			var x = document.getElementById("myTopnav");
+			if (x.className === "topnav") {
+				x.className += " responsive";
+			} else {
+				x.className = "topnav";
+			}
+		}
+		</script>
+    <script src="./js/faq_details.js"></script>
   </body>
 </html>
