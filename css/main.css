@@ -347,7 +347,7 @@ input[type=submit]{
 }
 
 textarea {
-  width: 90%;
+  width: 100%;
 }
 
 input[type=submit]:hover {
