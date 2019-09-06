@@ -114,6 +114,10 @@ h2{
     width: 90%;
 }
 
+.courses-container {
+  padding-top: 50px;
+}
+
 @media screen and (max-width: 600px) {
   #backend {
     width: 100%;

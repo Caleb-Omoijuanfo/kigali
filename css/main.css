@@ -2,8 +2,11 @@
   font-family: 'Roboto', sans-serif;
 }
 
+body {
+  margin: 0;
+}
+
 .application {
-  margin: 0 auto;
   width: 100%;
 }
 
@@ -11,6 +14,9 @@
 .topnav {
   overflow: hidden;
   background-color: #333;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 
 .topnav a {
@@ -28,9 +34,23 @@
 }
 
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  /* background-color: #ddd; */
+  color: red;
+  animation-name: change;
+  animation-duration: 10s;
 }
+
+@@keyframes change {
+  from {
+    color: red;
+  }
+  to {
+    color: red;
+    font-size: 20px;
+  }
+}
+
+
 
 .topnav a.active {
   background-color: #4CAF50;
@@ -348,6 +368,10 @@ input[type=submit]{
 
 textarea {
   width: 100%;
+}
+
+.the-rest {
+  padding-top: 50px;
 }
 
 input[type=submit]:hover {

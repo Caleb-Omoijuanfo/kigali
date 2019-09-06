@@ -1,11 +1,12 @@
 
 				.landing {
-        background-image: url("https://res.cloudinary.com/dqpoj0kcn/image/upload/c_fill,h_578,w_1440/v1567388323/apple-black-and-white-black-and-white-169573.jpg");
+					background-image: url("https://res.cloudinary.com/dqpoj0kcn/image/upload/c_scale,h_960,w_1440/v1567695515/apple-black-and-white-black-and-white-169573_1_-min.jpg");
+        /* background-image: url("https://res.cloudinary.com/dqpoj0kcn/image/upload/c_fill,h_578,w_1440/v1567388323/apple-black-and-white-black-and-white-169573.jpg"); */
         width:100%;
         object-fit:fill;
 				opacity: 1;
 				z-index: -6;
-				height: 578px;
+				height: 700px;
 				background-repeat: no-repeat;
 			}
 
@@ -32,8 +33,8 @@
 				body a {text-decoration: none;}
 
 				.landing-2 {
-
 					padding: 2px;
+					padding-top: 50px;
 				}
 				.text-1 {
 					margin-top: 20px;
