@@ -1,6 +1,6 @@
 
 				.landing {
-        background-image: url("https://res.cloudinary.com/dqpoj0kcn/image/upload/c_fill,h_578,w_1366/v1567388323/apple-black-and-white-black-and-white-169573.jpg");
+        background-image: url("https://res.cloudinary.com/dqpoj0kcn/image/upload/c_fill,h_578,w_1440/v1567388323/apple-black-and-white-black-and-white-169573.jpg");
         width:100%;
         object-fit:fill;
 				opacity: 1;
@@ -31,8 +31,39 @@
 				.HomeWord {font-size:35px;}
 				body a {text-decoration: none;}
 
+				.landing-2 {
+
+					padding: 2px;
+				}
+				.text-1 {
+					margin-top: 20px;
+					margin-bottom: 15px;
+					text-align: center;
+				}
+				.text-1 strong {
+					font-family: Wesfy, sans-serif;
+					font-size: 25px;
+				}
+
+				.text-2 {
+					color: #333;
+					text-align: center;
+				}
+
+				.text-2-button {
+					margin: 0 auto;
+					margin-top: 10px;
+				}
+
 				@media screen and (max-width: 600px) {
 				 .landing {
+					 display: none;
+				 }
+
+				}
+
+				@media screen and (min-width: 601px) {
+				 .landing-2 {
 					 display: none;
 				 }
 
