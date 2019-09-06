@@ -16,8 +16,8 @@ body {
 
 .team-container img {
     border-radius: 50%;
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     margin: 10px;
 }
 .the-team {
@@ -81,6 +81,9 @@ body {
     width: 80px;
 }
 
+.team {
+  padding-top: 50px;
+}
 @media screen and (max-width: 600px) {
   .the-team {
     display: flex;
