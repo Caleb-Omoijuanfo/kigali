@@ -94,4 +94,8 @@ body {
     width: 92%;
   }
 
+  .team-landing {
+    display: none;
+  }
+
 }

@@ -12,6 +12,16 @@
     width: 100%;
     display: block;
 }
+
+.apply-button {
+  padding: 10px;
+  border-radius: 2px;
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+
 .image{
     text-align: center;
     margin-top: 200px;
