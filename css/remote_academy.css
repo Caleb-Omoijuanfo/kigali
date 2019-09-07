@@ -22,15 +22,6 @@ body{
 .fullstack-container, .backend-container, .frontend-container{
   padding-top: 50px;
 }
-@media screen and (max-width: 600px) {
-  .fig {
-    width:100%;
-    border: 1px solid red;
-  }
-  .courses-container {
-    width:100%;
-  }
-}
 
 
 .contents{
@@ -72,6 +63,7 @@ h1{
     padding: 20px;
     text-align: center
 }
+
 span{
     font-size: 15px;
 }
@@ -123,4 +115,18 @@ h3{
 }
 h2{
     width: 90%;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    text-align: center;
+  }
+
+  #backend, #fullstack, #frontend {
+    width: 100%;
+  }
+
+  .accordion {
+    font-size: 15px;
+  }
 }

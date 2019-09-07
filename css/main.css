@@ -40,7 +40,7 @@ body {
   animation-duration: 10s;
 }
 
-@@keyframes change {
+@keyframes change {
   from {
     color: red;
   }
