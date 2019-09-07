@@ -1,0 +1,23 @@
+.image .fig{
+    display: inline-block;
+    width: 370px;
+    margin: 20px 20px 20px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 0px;
+}
+.pageimage{
+    width:100%;
+}
+.image .figure{
+    width: 100%;
+    display: block;
+}
+.image{
+    text-align: center;
+    margin-top: 200px;
+}
+figcaption{
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 10px;
+}

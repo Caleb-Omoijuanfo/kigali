@@ -157,6 +157,16 @@ body {
   margin: 10px;
 }
 
+.team-landing {
+  background-image: url("https://res.cloudinary.com/dqpoj0kcn/image/upload/c_crop,h_700,w_1440/v1567809410/adult-backlit-beach-1000445.jpg");
+  height: 500px;
+  background-attachment: fixed;
+}
+
+.team {
+  z-index: 900;
+}
+
 .the-team {
   background-color: rgb(246, 246, 246);
   display: flex;
@@ -390,7 +400,9 @@ form {
 .about-container {
   width: 60%;
   margin: 0 auto;
-  padding: 5px;
+  padding-top: 50px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .about-3 {
